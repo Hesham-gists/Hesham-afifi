@@ -1,0 +1,10 @@
+<mat-toolbar>
+  <span>HM</span>
+  <span class="spacer"></span>
+  <button mat-icon-button (click)="change_mode.emit(!isDarkMode)">
+    <mat-icon>{{ isDarkMode ? "light_mode" : "dark_mode" }}</mat-icon>
+  </button>
+  <button mat-icon-button>
+    <mat-icon>more_vert</mat-icon>
+  </button>
+</mat-toolbar>

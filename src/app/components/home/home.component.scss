@@ -1,0 +1,16 @@
+section {
+  min-height: max(90vh, 350px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
